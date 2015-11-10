@@ -1,6 +1,31 @@
 // Put any @imports here
 // See Readme for a list of supported ones
-
+@import "font-awesome";
+@import 'foundation';
 body {
   background: #e2ebf3;
+}
+
+.container {
+  display: block;
+}
+button{
+  margin: 10px 0 0 125px;
+  border-radius: 90px;
+
+
+
+  &:hover{
+    background-color: #4EC1E9;
+    color: #5E5E5E;
+  }
+}
+
+.picture {
+  max-height: 25%;
+  max-width: 25%;
+  border: 5px solid #4EC1E9;
+  border-radius: 10px;
+  margin: 10px 0 0 25px;
+
 }
