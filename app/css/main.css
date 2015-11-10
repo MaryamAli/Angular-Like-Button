@@ -8410,11 +8410,14 @@ th.hide-for-touch {
 body {
   background: #e2ebf3; }
 
+.ng-cloak {
+  display: none !important; }
+
 .container {
   display: block; }
 
 button {
-  margin: 10px 0 0 125px;
+  margin: 10px 0 0 115px;
   border-radius: 90px; }
   button:hover {
     background-color: #4EC1E9;
